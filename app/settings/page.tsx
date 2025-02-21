@@ -148,7 +148,7 @@ export default function SettingsPage() {
 export const CodeComp = () => {
     // eslint-disable-next-line no-use-before-define
     const codeString = `
-   const url = "https://monitoryour.website/api/events";
+   const url = "https://trackwise.help/api/events";
     const headers = {
       "Content-Type": "application/json",
       Authorization: "Bearer {{apiKey}}",

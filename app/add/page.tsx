@@ -100,7 +100,7 @@ export default function OnBoardingPage() {
                             className='cursor-pointer border-gray-700'
                             disabled
                             value={`<script defer data-domain="${website}"
-                            src="https://monitoryour.website/tracking-script.js"></script>`} 
+                            src="https://trackwise.help/tracking-script.js"></script>`} 
                         />
                         <p className="text-xs text-white/20 pt-2 font-light">
                             Paste this snippet in the{" "}
