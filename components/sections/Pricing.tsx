@@ -6,6 +6,7 @@ import clsx from "clsx";
 import CountUp from "react-countup";
 import { plans } from "../../constants/index";
 import Button from "../../components/Button";
+import Link from "next/link";
 
 const Pricing = () => {
   const [monthly, setMonthly] = useState(false);
@@ -149,7 +150,9 @@ const Pricing = () => {
                 </ul>
 
                 <div className="mt-10 flex w-full justify-center">
+                <Link href={'/dashboard'}>
                   <Button icon={plan.icon}>Get Started</Button>
+                </Link>
                 </div>
 
                 {index === 1 && (

@@ -4,6 +4,7 @@ import { Element } from "react-scroll";
 
 import { details, features } from "../../constants/index";
 import Button from "../Button";
+import Link from "next/link";
 
 const Features = () => {
   return (
@@ -33,7 +34,9 @@ const Features = () => {
                   {title}
                 </h2>
                 <p className="mb-11 body-1 max-md:mb-8 max-md:body-3">{text}</p>
-                <Button icon={button.icon}>{button.title}</Button>
+                <Link href={'/dashboard'}>
+                  <Button icon={button.icon}>{button.title}</Button>
+                </Link>
               </div>
             ))}
 

@@ -2,23 +2,45 @@ export const features = [
   {
     id: "0",
     icon: "/images/feature-1.png",
-    caption: "Easy integration",
-    title: "Work smarter not harder",
-    text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
+    caption: "Save Time and Effort",
+    title: "Track Unlimited Websites",
+    text: "Add as many domains as you want. Monitor every website you own in one place—no limits!",
     button: {
       icon: "/images/magictouch.svg",
-      title: "Watch the demo",
+      title: "Start Now!",
+    },
+  },
+  {
+    id: "1",
+    icon: "/images/feature-2.png",
+    caption: "Make Better Decisions",
+    title: "Unique Visitor Tracking",
+    text: "Get precise data about who visits your website, how often, and where they come from.",
+    button: {
+      icon: "/images/docs.svg",
+      title: "Start Now!",
+    },
+  },
+  {
+    id: "2",
+    icon: "/images/feature-1.png",
+    caption: "Scale Without Limits",
+    title: "Page-by-Page Insights",
+    text: "Discover how each page performs. See the activities happening on every page in real-time.",
+    button: {
+      icon: "/images/magictouch.svg",
+      title: "Start Now!",
     },
   },
   {
     id: "1",
     icon: "/images/feature-2.png",
     caption: "Secure & trustworthy",
-    title: "Sleep easy, we got your back",
-    text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
+    title: "Custom Event Tracking",
+    text: "Want to track a button click? A form submission? Or a special action? You decide! Add and track unlimited custom events for each website with ease.",
     button: {
       icon: "/images/docs.svg",
-      title: "Read the docs",
+      title: "Start Now!",
     },
   },
 ];
@@ -27,130 +49,136 @@ export const details = [
   {
     id: "0",
     icon: "/images/detail-1.png",
-    title: "AI automated video editing",
+    title: "Add Your Websites",
   },
   {
     id: "1",
     icon: "/images/detail-2.png",
-    title: "Collaborate with your team",
+    title: "Define What You Want to Track",
   },
   {
     id: "2",
     icon: "/images/detail-3.png",
-    title: "Ultra fast cloud-engine",
+    title: "Watch the Data Flow In",
   },
   {
     id: "3",
     icon: "/images/detail-4.png",
-    title: "24 / 7 Customer support",
+    title: "Use Insights to Take Action",
   },
 ];
 
 export const faq = [
   {
     id: "0",
-    question: "How easy is it to setup Xora?",
+    question: "What is this tool, and how does it work?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "This is an advanced yet easy-to-use web analytics tool that helps you track website traffic, page visits, user behavior, and custom events in real time. Simply add your website, set up tracking, and start getting powerful insights immediately.",
   },
   {
     id: "1",
-    question: "Can I integrate Xora with other platforms?",
+    question: "How is this tool different from Google Analytics?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Unlike Google Analytics, our tool is: Simpler to use with a clean, user-friendly interface. Privacy-friendly with no complex data policies. Real-time for instant insights without delays. Fully customizable so you can track what truly matters to you.",
   },
   {
     id: "2",
-    question: "How often do you add new content?",
+    question: "Do I need coding skills to use this tool?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "No! Our platform is designed for everyone—business owners, marketers, bloggers, and developers. Just add your website, and tracking starts immediately. For custom event tracking, simple copy-paste scripts are provided.",
   },
   {
     id: "3",
-    question: "What your refund policy?",
+    question: "What kind of data can I track?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "You can track: Unique visitors & traffic sources (where your audience is coming from). Page visits & engagement (time spent, clicks, interactions). Custom events (button clicks, sign-ups, downloads, purchases). Real-time activity (live visitor tracking).",
   },
   {
     id: "4",
-    question: "Do you have corporate plans?",
+    question: "How many websites can I track?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "You can track unlimited websites depending on your chosen plan. Whether you have one site or a hundred, our dashboard keeps everything organized in one place.",
   },
   {
     id: "5",
-    question: "What happens when I’m out of storage?",
+    question: "Will this tool slow down my website?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Not at all! Our tracking script is lightweight and optimized for fast performance. It runs in the background without affecting your website speed.",
   },
   {
     id: "6",
-    question: "Can I upgrade my plan?",
+    question: "Is my data safe and private?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Absolutely! We do not share, sell, or misuse your data. Your tracking insights are private, secure, and only accessible by you.",
   },
   {
     id: "7",
-    question: "How do I invite my team?",
+    question: "Do you offer a free trial?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Yes! We offer a risk-free trial, so you can explore all the features before committing to a plan. No credit card is required to start.",
   },
   {
     id: "8",
-    question: "Do you offer training for individuals and teams?",
+    question: "Can I integrate this tool with other platforms?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Yes! Our tool works seamlessly with WordPress, Shopify, Wix, and other platforms. It also integrates with marketing tools like email automation and ad tracking.",
   },
   {
     id: "9",
-    question: "I’m locked out of my account what do I do?",
+    question: "How do I get started?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Getting started is simple: Sign up for free. Add your website. Start tracking traffic, events, and engagement instantly!",
   },
 ];
 
 export const plans = [
   {
     id: "0",
-    title: "Core",
-    priceMonthly: 19,
-    priceYearly: 12,
-    caption: "Best for solo creators",
+    title: "Starter",
+    priceMonthly: 9,
+    priceYearly: 7,
+    caption: "Perfect for small websites & beginners",
     features: [
-      "100MB Cloud storage",
-      "100+ prompt templates",
-      "5 projects",
-      "24/7 support",
+      "Track up to 1 website",
+      "10,000 page views per month",
+      "Basic traffic analytics",
+      "Custom event tracking",
+      "Email support",
     ],
     icon: "/images/circle.svg",
     logo: "/images/plan-1.png",
   },
   {
     id: "1",
-    title: "Overdrive",
-    priceMonthly: 79,
-    priceYearly: 59,
-    caption: "Most popular plan",
+    title: "Growth",
+    priceMonthly: 29,
+    priceYearly: 24,
+    caption: "Ideal for growing businesses & marketers",
     features: [
-      "All Starter features",
-      "1TB additional storage",
-      "Unlimited projects",
-      "Analytics",
+      "Track up to 5 websites",
+      "100,000 page views per month",
+      "Advanced traffic & visitor insights",
+      "Real-time event tracking",
+      "Goal & conversion tracking",
+      "Priority email support",
     ],
     icon: "/images/triangle.svg",
     logo: "/images/plan-2.png",
   },
   {
     id: "2",
-    title: "Team",
-    priceMonthly: 39,
-    priceYearly: 29,
-    caption: "Exclusively for teams",
+    title: "Pro",
+    priceMonthly: 59,
+    priceYearly: 49,
+    caption: "Best for agencies & high-traffic websites",
     features: [
-      "All Overdrive features",
-      "10TB additional storage",
-      "50% off per member",
-      "Real-time collaboration",
+      "Unlimited websites",
+      "Unlimited page views",
+      "Full visitor journey tracking",
+      "Custom event & goal tracking",
+      "Team collaboration features",
+      "API access & integrations",
+      "24/7 priority support",
     ],
     icon: "/images/hexagon.svg",
     logo: "/images/plan-3.png",
